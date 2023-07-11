@@ -1,1 +1,1 @@
-# Lex-logos
+# Lexilogos
