@@ -57,6 +57,7 @@ A su vez, se le tenían que añadir algunas mini-animaciones a los elementos com
 Login
 Primera pestaña de la aplicación la cual identifica el usuario, pestaña de autenticación para detectar los privilegios de usuario o administrador. 
 
+![image](https://github.com/Valgaba99/Lex-logos/assets/94439378/06e64a43-8e7c-4cc8-93cf-71d0f7f711b3)
 
 
 
@@ -64,10 +65,13 @@ Menú
 Si entramos con modo administrador, en nuestro caso con rol de profesor la primera pestaña disponible es la de inserción de textos en la base de datos.
 
 Y la siguiente pestaña del menú es la de una tabla la cual se refleja la base de datos completa, pestaña disponible tanto administrador (profesor) como un usuario (alumnos).
+![image](https://github.com/Valgaba99/Lex-logos/assets/94439378/f21b8e72-7e6e-4f67-8573-8353753073d5)
 
 
 Análisis
 Esta ventana de la aplicación es la más importante del programa, puesto que es el lugar donde los alumnos podrán analizar de forma rápida y cómoda las oraciones de los textos subidos por el profesor. 
+![image](https://github.com/Valgaba99/Lex-logos/assets/94439378/938bc92e-f325-4e32-b765-21efe8a8af92)
+
 
 Contaremos con un filtro de frase.
 Mediante una lista desplegable podremos seleccionar qué frase queremos analizar
@@ -87,6 +91,7 @@ Justo debajo encontraremos el apartado de análisis morfológico. En este aparta
 Cuando pasamos el ratón por encima de un campo, aparecerá un botón por si queremos unificar dos campos o más (por ejemplo, para un sujeto compuesto por más de una palabra)
 
 Tendremos también un apartado para traducir la frase del latín al español y un campo en el que el alumno escribirá su nombre para saber quién analizó ese texto
+![image](https://github.com/Valgaba99/Lex-logos/assets/94439378/7f068bfb-a1e9-4f3d-b1c6-6b1cd7496696)
 
 
 Por último, tendremos 2 botones en la interfaz. Uno de ellos para abrir una ventana que contendrá un diccionario y otro para exportar todo el trabajo a excel y asi poder mandarselo al profesor a través de la plataforma asignada (Classroom, Moodle…)
