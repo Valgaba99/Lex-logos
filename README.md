@@ -224,3 +224,6 @@ Introducir una gama de tonos pasteles a la pantalla de análisis en la parte de 
 Teniendo en cuenta que el proyecto siguiese adelante y tuviésemos una base de datos decente, en otra pestaña de la pantalla principal, hacer que el profesor pueda ver lo realizado por los alumnos, osea, que lo de los alumnos se guarde y se suba a una base de datos y el profesor pueda verlo desde su aplicación, sin necesidad de exportar a excel y utilizar classroom.
 
 Refactorizar el código y hacerlo más escalable.
+
+[Enlace a la presentación de Prezi](https://prezi.com/view/ulwNTSIshtidIl3tBVGY/)
+
