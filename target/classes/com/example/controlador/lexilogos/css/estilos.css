@@ -1,0 +1,56 @@
+.textfield {
+    -fx-padding: 0 0 0 15;
+}
+
+.root {
+    -fx-background-color: white;
+}
+.button:hover {
+    -fx-background-color: #9CB7FB;
+}
+.pane{
+    -fx-background-color: #EEF3FF;
+
+}
+
+#txtFiltro {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #0072C6;
+    -fx-border-radius: 5px;
+    -fx-prompt-text-fill: #B0B0B0;
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+}
+
+#tablaDiccionario {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #0072C6;
+    -fx-border-radius: 5px;
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+}
+
+#comboselectfrase {
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-width: 0px 0px 1px 0px;
+}
+/* Establecer una línea inferior como borde */
+.combo-box-base .list-view {
+    -fx-border-color: black;
+    -fx-border-width: 0 0 1 0;
+}
+.combo-box-base {
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-width: 0px 0px 1px 0px;
+}
+.button {
+    -fx-background-color: #0072C6;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+}

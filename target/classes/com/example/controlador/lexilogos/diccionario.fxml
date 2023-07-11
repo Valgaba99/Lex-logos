@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root2" prefHeight="848.0" prefWidth="966.0" style="-fx-background-color: #EEF3FF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controlador.lexilogos.controller.DiccionarioController">
+   <children>
+      <TextField fx:id="txtFiltro" layoutX="22.0" layoutY="14.0" prefHeight="31.0" prefWidth="930.0" promptText="Ingrese una palabra..." AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="14.0" />
+      <TableView fx:id="tablaDiccionario" layoutX="24.0" layoutY="59.0" prefHeight="774.0" prefWidth="930.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="24.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="59.0">
+         <columns>
+            <TableColumn fx:id="registroTabla" editable="false" minWidth="2000.0" prefWidth="2000.0" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

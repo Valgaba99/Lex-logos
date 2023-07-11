@@ -1,0 +1,110 @@
+* {
+    -fx-primary-color: #007acc;
+    -fx-secondary-color: #4B6EAF;
+    -fx-focus-color: -fx-secondary-color;
+}
+.tab-header-area .tab-header-background {
+    -fx-background-color: #9CB7FB;
+}
+.tab-pane .tab:selected {
+    -fx-background-color: #628EFC;
+    -fx-background-radius: 10;
+    -fx-background-insets: 0 0 0 0;
+}
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-padding: 0 10 0 10;
+}
+.tab-pane:top *.tab-header-area {
+    -fx-padding: 0 0 0 30;
+}
+.tab-pane {
+    -fx-background-color: #EEF3FF;
+    -fx-tab-min-width: 100px;
+    -fx-tab-min-height: 36px;
+    -fx-tab-max-height: 66px;
+}
+.tab-pane .tab {
+    -fx-background-color: transparent;
+}
+.tab-pane:focused .tab-header-area .headers-region .tab:selected .focus-indicator {
+    -fx-border-width: 0;
+    -fx-border-insets: 0 0 0 0;
+    -fx-border-radius: 0;
+}
+.button {
+    -fx-background-color: white;
+    -fx-border-color: black;
+}
+.button:hover {
+    -fx-background-color: #9CB7FB;
+}
+
+.table-view {
+    -fx-border-color: transparent;
+    -fx-background-color: transparent; /* OR -fx-background-insets: 0.0; */
+    -fx-padding: 50px;
+}
+.table-view .column-header-background,
+.table-view .column-header-background .filler,
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: -fx-light-grey-color; /* WARNING */
+    -fx-border-color: -fx-grey-color; /* WARNING */
+}
+.table-view .column-header .label {
+    -fx-font-weight: bold;
+    -fx-alignment: center-left;
+}
+
+/* This is just magic */
+.table-row-cell:filled {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-insets: 0, 1;
+}
+.table-row-cell:empty {
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:filled:hover {
+    -fx-background-color: #D3D3D3;
+}
+
+.table-row-cell:filled:selected:hover {
+    -fx-background-color: #D3D3D3;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #eaeaea;
+    -fx-background-insets: 0.0;
+    -fx-background-radius: 0.0;
+}
+
+.table-row-cell:filled:selected .table-cell {
+    -fx-text-fill: black;
+}
+
+.table-view .cell:filled {
+    -fx-cell-size: 30;
+    -fx-alignment: center-left;
+}
+
+.check-box-table-cell > .check-box:selected .box .mark {
+    -fx-background-color: white;
+}
+
+.check-box-table-cell > .check-box:selected .box {
+    -fx-background-color: -fx-accent-color;
+}
+
+.table-view .placeholder .label {
+    -fx-text-fill: red;
+    -fx-padding: 20px;
+}
+
